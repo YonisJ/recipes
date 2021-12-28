@@ -1,0 +1,64 @@
+*{
+    font-family: "open sans", sans-serif;
+    background-color: white;
+    color: black;
+}
+.title{
+    text-align: center;
+}
+.recipe-title{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    margin: auto;
+    padding-bottom: 1.5rem;
+}
+.recipes{
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 20vh;
+    padding-bottom: 1rem;
+}
+.flex img:hover{
+    transform: scale(1.05);
+    transition: all ease;
+    border-radius: 1rem;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+.card{
+    justify-content: space-between;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.centred{
+    text-align: center;
+}
+.height{
+    height: 30vh;
+}
+.ingredients-card{
+  border-radius: 0.5rem;
+  border: 0.05rem solid rgb(71, 71, 71);
+}
+.steps-card{
+    border-radius: 0.5rem;
+    border: 0.05rem solid rgb(71, 71, 71);
+}
